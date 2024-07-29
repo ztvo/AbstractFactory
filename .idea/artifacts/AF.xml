@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AF">
+    <output-path>$PROJECT_DIR$/out/artifacts/AF</output-path>
+    <root id="archive" name="AF.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-source" name="AbstractFactory" />
+      <element id="module-output" name="AbstractFactory" />
+    </root>
+  </artifact>
+</component>
