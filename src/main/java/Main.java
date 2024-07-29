@@ -1,3 +1,7 @@
+import factory.ILearningMaterialFactory;
+import factory.MathematicsCourseFactory;
+import factory.ProgrammingCourseFactory;
+
 import java.util.Scanner;
 
 public class Main {
@@ -14,7 +18,7 @@ public class Main {
         while (!exit) {
             Scanner input = new Scanner(System.in);
             selection = input.nextInt();
-            LearningMaterialFactory factory;
+            ILearningMaterialFactory factory;
             OnlineCourse onlineCourse;
 
             switch (selection) {
